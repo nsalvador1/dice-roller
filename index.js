@@ -15,9 +15,8 @@
 // }
 
 async function rollDice() {
-  // Get your existing input values (adjust IDs if yours are different)
-  const sides = parseInt(document.getElementById('sides').value) || 6;
-  const count = parseInt(document.getElementById('count').value) || 1;
+  const sides = 6;   // number of sides
+  const count = 5;   // number of dice to roll
 
   // Azure backend URL
   const baseUrl = 'https://node-js-on-azure-ns-a6hqg8c8ghfmfbfh.centralus-01.azurewebsites.net';
